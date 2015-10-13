@@ -8,12 +8,13 @@
         Maanju Studio
     </author>
     <content src="index.html" />
-    
-    <gap:platform name="android" />
 
-    <preference name="permissions" value="none" />
-    <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="true" />
+    <access origin="*"/>
+    
+    <!-- Core/Common Preferences -->
+    <preference name="Fullscreen" value="false"/> 
+    <preference name="DisallowOverscroll" value="true"/> 
+    <preference name="Orientation" value="portrait"/>
 
     <icon src="icon.png" />
 </widget>
